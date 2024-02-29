@@ -1,0 +1,14 @@
+a=int(input("Enter a Number"))
+flag=False
+if(a>1):
+    for i in range(2, a, 1):
+        if(a%i==0):
+            flag=True
+            break
+    if(flag==True):
+        print("Not Prime Number")
+    else:
+        print(i,"Prime Number")
+     
+        
+    
