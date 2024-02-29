@@ -1,0 +1,18 @@
+r=int(input("enter the value of radius: "))
+
+l=int(input("enter length: "))
+w=int(input("enter width: "))
+
+a=int(input("enter value of a: "))
+b=int(input("enter value of b: "))
+c=int(input("enter value of c: "))
+
+pie=3.14
+circle=2*pie*r
+print("perimeter of circle: ",circle)
+
+rectangle=2(l+w)
+print("perimeter of rectangle: ",rectangle)
+
+triangle=a+b+c
+print("perimeter of triangle: ",triangle)
