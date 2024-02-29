@@ -1,0 +1,8 @@
+a=40
+if(a>=15 & a>=10):
+    print("dwarf")
+elif(a<=30 & a>=16):
+    print("average")
+else:
+    print("tall")
+    
