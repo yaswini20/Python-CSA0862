@@ -1,0 +1,6 @@
+a=int(input("Enter a Numb a:"))
+b=int(input("Enter a Numb b:"))
+if(a==b):
+    print("Eqaul")
+else:
+    print("Not Equal")
