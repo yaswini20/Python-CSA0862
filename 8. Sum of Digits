@@ -1,0 +1,6 @@
+a=int(input("Enter a Numb"))
+sum=0
+while(a!=0):
+    sum=sum+a%10 
+    a=a//10
+print("The Sum of Digit", sum)
