@@ -1,0 +1,15 @@
+def anagrams(str1, str2):
+    if len(str1) != len(str2):
+        print("Not Anagrams.")
+        return
+    set_str1 = set(str1)
+    set_str2 = set(str2)
+    if set_str1 == set_str2:
+        print("Anagrams.")
+        return
+    else:
+        print("Not Anagrams.")
+        return
+string1 = "hectare"
+string2 = "teacher"
+anagrams(string1,string2)
