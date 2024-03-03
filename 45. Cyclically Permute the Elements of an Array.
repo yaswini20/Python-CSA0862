@@ -1,0 +1,5 @@
+def cyclically_permute(lst):
+    if not lst:
+        return lst
+    lst.insert(0, lst.pop())
+my_list = [1, 
