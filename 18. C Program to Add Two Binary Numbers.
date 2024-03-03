@@ -1,0 +1,7 @@
+bin1="011"
+bin2="001"
+num1=int(bin1,2)
+num2=int(bin2,2)
+result=num1+num2
+result=bin(result)[2:]
+print(result)
