@@ -1,0 +1,6 @@
+def print_non_repeated_elements(lst):
+    element_freq = {}
+    for element in lst:
+        if element in element_freq:
+            element_freq[element] += 1
+        else:
