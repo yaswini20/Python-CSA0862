@@ -1,0 +1,10 @@
+string1="Hello"
+string2="Helz"
+len1=len(string1)
+len2=len(string2)
+if len1==len2:
+    print("Equal")
+elif len1>len2:
+    print("String 1 is greater")
+else:
+    print("String 2 is greater")
