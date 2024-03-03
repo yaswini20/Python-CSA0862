@@ -1,0 +1,5 @@
+n = [3, 678, 345, 876]
+split_position = 3
+result_array = n[split_position:] + n[:split_position]
+for num in result_array:
+    print(num)
