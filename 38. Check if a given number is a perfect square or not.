@@ -1,0 +1,7 @@
+import math as m
+n=25
+sqrt=m.isqrt(n)
+if n==sqrt*sqrt:
+    print("Perfect square")
+else:
+    print("Not perfect sqaure")
