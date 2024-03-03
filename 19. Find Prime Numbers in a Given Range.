@@ -1,0 +1,9 @@
+start=70
+stop=80
+for x in range(start,stop+1):
+    count=0
+    for y in range(2,x):
+        if(x%y)==0:
+            count=1
+    if(count==0):
+        print(x)
