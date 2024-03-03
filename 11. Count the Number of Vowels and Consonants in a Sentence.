@@ -1,0 +1,12 @@
+n=input("Enter string: ")
+strlen=len(n)
+ccount=0
+vcount=0
+for x in range(0,strlen):
+    if(n[x]=='a'or n[x]=='e'or n[x]=='i'or n[x]=='o'or n[x]=='u'or n[x]=='A'or n[x]=='E'or n[x]=='I'or n[x]=='O'or n[x]=='U'):
+        vcount+=1
+    elif(x==' '):
+        ignore
+    else:
+        ccount+=1
+print(ccount,vcount)
