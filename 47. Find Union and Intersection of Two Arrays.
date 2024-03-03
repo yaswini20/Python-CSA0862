@@ -1,0 +1,6 @@
+list1=[12, 34, 23, 56, 45]
+list2=[34, 56, 12, 78, 66]
+union=list(set(list1).union(set(list2)))
+intersection=list(set(list1).intersection(set(list2)))
+print(union)
+print(intersection)
