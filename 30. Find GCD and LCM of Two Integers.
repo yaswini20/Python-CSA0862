@@ -1,0 +1,6 @@
+import math as m
+a=12
+b=16
+lcm=m.lcm(a,b)
+gcd=m.gcd(a,b)
+print(lcm,gcd)
